@@ -700,22 +700,94 @@ button:focus-visible {
   padding: 60px 0 90px;
 }
 
-.menu-category {
-  margin-bottom: 56px;
+.menu-group-head {
+  text-align: center;
+  padding: 10px 0 40px;
   scroll-margin-top: 90px;
 }
 
-.menu-category-image {
-  height: 280px;
-  margin-bottom: 22px;
+.menu-group-head:not(:first-child) {
+  margin-top: 20px;
+  padding-top: 50px;
+  border-top: 1px solid var(--rust-dim);
+}
+
+.menu-group-head h2 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin: 0 0 10px;
+  color: var(--cream);
+}
+
+.menu-group-head p {
+  color: var(--cream-dim);
+  max-width: 52ch;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.menu-subcategory-head {
+  border-bottom: 2px solid var(--rust);
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+}
+
+.menu-subcategory-head h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 0;
+  color: var(--molten);
+  letter-spacing: 0.02em;
+}
+
+.menu-subcategory-note {
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.82rem;
+  color: var(--cream-dim);
+  margin-top: 3px;
+  letter-spacing: 0;
+}
+
+.menu-subcategory {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--rust-dim);
+  scroll-margin-top: 90px;
+}
+
+.menu-subcategory:last-child {
+  border-bottom: none;
+}
+
+.menu-subcategory-media {
+  flex: 0 0 220px;
+  width: 220px;
+  height: 220px;
   border: 2px solid var(--ink);
   overflow: hidden;
 }
 
-.menu-category-image img {
+.menu-subcategory-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.menu-subcategory-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.menu-category {
+  margin-bottom: 56px;
+  scroll-margin-top: 90px;
 }
 
 .menu-category-head {
@@ -866,6 +938,8 @@ button:focus-visible {
     padding: 13px 0;
     border-bottom: 1px solid var(--rust-dim);
   }
+  .menu-subcategory { flex-direction: column; }
+  .menu-subcategory-media { width: 100%; height: 200px; }
   .main-nav a:last-child { border-bottom: none; }
   .nav-toggle { display: flex; }
   .nav-toggle .icon-close { display: none; }

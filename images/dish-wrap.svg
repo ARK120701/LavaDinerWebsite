@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a shawarma wrap with fries">
+  <defs>
+    <radialGradient id="bg-wrap" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef8f1"/>
+      <stop offset="100%" stop-color="#d7ede1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-wrap)"/>
+  <ellipse cx="200" cy="228" rx="120" ry="15" fill="#2b2420" opacity="0.12"/>
+  <path d="M150 100c-30 10-46 40-46 70 0 34 22 56 46 56h-4c40 4 74-24 74-64 0-38-30-68-70-62z" fill="#f2c37c" stroke="#2b2420" stroke-width="2"/>
+  <path d="M130 140c40-10 90 0 100 40-10 26-50 40-90 30" fill="none" stroke="#a04a2e" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M126 168c34-6 70 2 84 22" fill="none" stroke="#3ba14f" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <g fill="#f2b705">
+    <rect x="252" y="150" width="14" height="60" rx="6" transform="rotate(10 259 180)"/>
+    <rect x="270" y="146" width="14" height="60" rx="6" transform="rotate(2 277 176)"/>
+    <rect x="288" y="152" width="14" height="56" rx="6" transform="rotate(-8 295 180)"/>
+  </g>
+</svg>

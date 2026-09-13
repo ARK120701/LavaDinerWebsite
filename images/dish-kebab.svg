@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of grilled lamb and chicken skewers with rice">
+  <defs>
+    <radialGradient id="bg-kebab" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef8f1"/>
+      <stop offset="100%" stop-color="#d7ede1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-kebab)"/>
+  <ellipse cx="200" cy="228" rx="128" ry="16" fill="#2b2420" opacity="0.12"/>
+  <ellipse cx="200" cy="205" rx="134" ry="40" fill="#f2b705" opacity="0.35"/>
+  <g stroke="#8a5a3a" stroke-width="6" stroke-linecap="round">
+    <line x1="100" y1="120" x2="140" y2="210"/>
+    <line x1="200" y1="110" x2="200" y2="212"/>
+    <line x1="300" y1="120" x2="260" y2="210"/>
+  </g>
+  <g fill="#a04a2e">
+    <rect x="88" y="130" width="24" height="22" rx="5" transform="rotate(18 100 141)"/>
+    <rect x="98" y="158" width="24" height="22" rx="5" transform="rotate(18 110 169)"/>
+    <rect x="188" y="122" width="24" height="24" rx="5"/>
+    <rect x="188" y="152" width="24" height="24" rx="5"/>
+  </g>
+  <g fill="#e4483a">
+    <rect x="286" y="130" width="22" height="22" rx="5" transform="rotate(-16 297 141)"/>
+    <rect x="270" y="158" width="22" height="22" rx="5" transform="rotate(-16 281 169)"/>
+  </g>
+  <circle cx="150" cy="140" r="8" fill="#3ba14f"/>
+  <circle cx="250" cy="145" r="8" fill="#3ba14f"/>
+</svg>

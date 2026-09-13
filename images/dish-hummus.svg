@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a hummus and mezze plate with pita">
+  <defs>
+    <radialGradient id="bg-hummus" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef8f1"/>
+      <stop offset="100%" stop-color="#d7ede1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-hummus)"/>
+  <ellipse cx="200" cy="228" rx="126" ry="16" fill="#2b2420" opacity="0.12"/>
+  <circle cx="200" cy="190" r="82" fill="#fffdf7" stroke="#2b2420" stroke-width="2"/>
+  <circle cx="200" cy="190" r="58" fill="#e9d8a6"/>
+  <path d="M170 168q30-14 60 0" stroke="#c8a24a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="200" cy="188" r="10" fill="#e4483a" opacity="0.85"/>
+  <circle cx="180" cy="198" r="4" fill="#3ba14f"/>
+  <circle cx="222" cy="200" r="4" fill="#3ba14f"/>
+  <path d="M96 210c18-30 34-40 40-70" fill="none" stroke="#f2c37c" stroke-width="16" stroke-linecap="round"/>
+  <path d="M304 210c-18-30-34-40-40-70" fill="none" stroke="#f2c37c" stroke-width="16" stroke-linecap="round"/>
+</svg>
