@@ -480,6 +480,15 @@ button:focus-visible {
   transform: translate(-3px, -3px);
 }
 
+.gallery-item a {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
 .gallery-item img {
   width: 100%;
   flex: 1;
