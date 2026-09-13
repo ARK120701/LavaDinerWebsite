@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of cheese blintzes with berries and sour cream">
+  <defs>
+    <radialGradient id="bg-blintz" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef8f1"/>
+      <stop offset="100%" stop-color="#d7ede1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-blintz)"/>
+  <ellipse cx="200" cy="222" rx="100" ry="13" fill="#2b2420" opacity="0.12"/>
+  <ellipse cx="200" cy="192" rx="104" ry="40" fill="#fffdf7" stroke="#2b2420" stroke-width="2"/>
+  <rect x="130" y="164" width="70" height="44" rx="16" fill="#f2c37c" stroke="#2b2420" stroke-width="2"/>
+  <rect x="205" y="164" width="70" height="44" rx="16" fill="#efc06a" stroke="#2b2420" stroke-width="2"/>
+  <ellipse cx="200" cy="176" rx="20" ry="12" fill="#fffdf7" stroke="#2b2420" stroke-width="1.5"/>
+  <g fill="#e4483a">
+    <circle cx="160" cy="196" r="8"/>
+    <circle cx="180" cy="200" r="7"/>
+  </g>
+  <g fill="#8a5ec9">
+    <circle cx="240" cy="198" r="7"/>
+    <circle cx="258" cy="194" r="7"/>
+  </g>
+</svg>

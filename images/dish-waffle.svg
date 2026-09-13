@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a Belgian waffle with berries">
+  <defs>
+    <radialGradient id="bg-waffle" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef8f1"/>
+      <stop offset="100%" stop-color="#d7ede1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-waffle)"/>
+  <ellipse cx="200" cy="228" rx="100" ry="13" fill="#2b2420" opacity="0.12"/>
+  <circle cx="200" cy="170" r="84" fill="#e0a24a" stroke="#2b2420" stroke-width="2"/>
+  <g stroke="#a0651c" stroke-width="4" opacity="0.6">
+    <line x1="140" y1="120" x2="140" y2="220"/>
+    <line x1="170" y1="100" x2="170" y2="238"/>
+    <line x1="200" y1="90" x2="200" y2="248"/>
+    <line x1="230" y1="100" x2="230" y2="238"/>
+    <line x1="260" y1="120" x2="260" y2="220"/>
+    <line x1="122" y1="145" x2="278" y2="145"/>
+    <line x1="118" y1="170" x2="282" y2="170"/>
+    <line x1="122" y1="195" x2="278" y2="195"/>
+  </g>
+  <rect x="182" y="118" width="22" height="16" rx="3" fill="#fffdf7" opacity="0.9"/>
+  <circle cx="150" cy="130" r="8" fill="#e4483a"/>
+  <circle cx="250" cy="200" r="8" fill="#8a5ec9"/>
+  <circle cx="160" cy="205" r="7" fill="#e4483a"/>
+</svg>

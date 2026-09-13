@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a bowl of cereal with milk">
+  <defs>
+    <radialGradient id="bg-cereal" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef8f1"/>
+      <stop offset="100%" stop-color="#d7ede1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-cereal)"/>
+  <ellipse cx="200" cy="228" rx="100" ry="14" fill="#2b2420" opacity="0.12"/>
+  <path d="M112 160h176l-14 56a20 20 0 0 1-20 16h-108a20 20 0 0 1-20-16z" fill="#fffdf7" stroke="#2b2420" stroke-width="2"/>
+  <ellipse cx="200" cy="160" rx="88" ry="18" fill="#fffdf7" stroke="#2b2420" stroke-width="2"/>
+  <ellipse cx="200" cy="160" rx="72" ry="12" fill="#f2e2c0"/>
+  <g fill="#e0a24a">
+    <circle cx="165" cy="158" r="7"/>
+    <circle cx="190" cy="152" r="7"/>
+    <circle cx="215" cy="160" r="7"/>
+    <circle cx="238" cy="153" r="7"/>
+    <circle cx="180" cy="165" r="6"/>
+    <circle cx="225" cy="167" r="6"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a stack of pancakes with syrup">
+  <defs>
+    <radialGradient id="bg-pancake" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef8f1"/>
+      <stop offset="100%" stop-color="#d7ede1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-pancake)"/>
+  <ellipse cx="200" cy="226" rx="98" ry="13" fill="#2b2420" opacity="0.12"/>
+  <ellipse cx="200" cy="204" rx="90" ry="16" fill="#e0a24a" stroke="#2b2420" stroke-width="2"/>
+  <ellipse cx="200" cy="180" rx="86" ry="15" fill="#efc06a" stroke="#2b2420" stroke-width="2"/>
+  <ellipse cx="200" cy="157" rx="82" ry="15" fill="#e0a24a" stroke="#2b2420" stroke-width="2"/>
+  <path d="M130 155q60 22 130 4" fill="none" stroke="#a0651c" stroke-width="4" opacity="0.4"/>
+  <rect x="180" y="126" width="26" height="18" rx="4" fill="#fffdf7" stroke="#2b2420" stroke-width="1.5"/>
+  <path d="M240 150c14 10 14 34 0 50-10-14-10-36 0-50z" fill="#c8791f"/>
+  <path d="M170 148c-4 8-4 16 0 20M228 154c4 8 4 16 0 20" stroke="#c8791f" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>

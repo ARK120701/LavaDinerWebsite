@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a mandi rice bowl with roasted chicken and almonds">
+  <defs>
+    <radialGradient id="bg-mandi" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef8f1"/>
+      <stop offset="100%" stop-color="#d7ede1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-mandi)"/>
+  <ellipse cx="200" cy="226" rx="112" ry="14" fill="#2b2420" opacity="0.12"/>
+  <path d="M92 168h216l-18 40a26 26 0 0 1-24 16h-132a26 26 0 0 1-24-16z" fill="#c8791f" stroke="#2b2420" stroke-width="2"/>
+  <ellipse cx="200" cy="168" rx="108" ry="20" fill="#f2b705" stroke="#2b2420" stroke-width="2"/>
+  <path d="M150 152q50 16 100 0" fill="none" stroke="#e0921a" stroke-width="4" opacity="0.5"/>
+  <path d="M170 148c-18-10-30-30-24-46 20 4 34 20 40 38z" fill="#a04a2e" stroke="#2b2420" stroke-width="2"/>
+  <path d="M230 148c18-10 30-30 24-46-20 4-34 20-40 38z" fill="#a04a2e" stroke="#2b2420" stroke-width="2"/>
+  <g fill="#fffdf7">
+    <ellipse cx="165" cy="140" rx="5" ry="3" transform="rotate(30 165 140)"/>
+    <ellipse cx="235" cy="140" rx="5" ry="3" transform="rotate(-30 235 140)"/>
+    <ellipse cx="150" cy="162" rx="5" ry="3"/>
+    <ellipse cx="250" cy="162" rx="5" ry="3"/>
+  </g>
+</svg>
