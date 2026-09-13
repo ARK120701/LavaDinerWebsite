@@ -38,6 +38,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 .site-header, main, .site-footer { position: relative; z-index: 1; }
@@ -138,6 +139,8 @@ button:focus-visible {
   font-weight: 700;
   font-size: 0.95rem;
   white-space: nowrap;
+  padding: 10px;
+  margin: -10px;
 }
 
 .header-phone svg { width: 16px; height: 16px; color: var(--ember); flex-shrink: 0; }
@@ -705,6 +708,25 @@ button:focus-visible {
   border-color: var(--molten);
 }
 
+.menu-jump-categories {
+  margin-top: 14px;
+}
+
+.menu-jump-categories a {
+  color: var(--cream-dim);
+  border-color: var(--rust-dim);
+  background: var(--char-3);
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.menu-jump-categories a:hover {
+  color: var(--char);
+  background: var(--rust);
+  border-color: var(--rust);
+}
+
 .menu-body {
   padding: 60px 0 90px;
 }
@@ -983,6 +1005,9 @@ button:focus-visible {
   .event-item { grid-template-columns: 1fr; gap: 10px; }
   .event-media { width: 100%; height: 150px; }
   .header-phone span.phone-text { display: none; }
+  .header-actions .social-row { display: none; }
+  .menu-item-name { white-space: normal; }
+  .menu-jump-categories a { font-size: 0.8rem; padding: 6px 12px; }
 }
 
 @media (max-width: 520px) {

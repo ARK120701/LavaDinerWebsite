@@ -87,19 +87,45 @@
   </section>
   <script>
     (function () {
-      var now = new Date();
-      var day = now.getDay();
-      var hour = now.getHours() + now.getMinutes() / 60;
-      var closeHour = (day === 5 || day === 6 || day === 0) ? 23 : 22;
-      var isOpen = hour >= 7 && hour < closeHour;
       var dot = document.getElementById('status-dot');
       var text = document.getElementById('status-text');
-      if (dot && text) {
+      if (!dot || !text) return;
+
+      var dayIndex = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+
+      function updateStatus() {
+        // Always evaluated in the restaurant's own timezone, not the
+        // visitor's, so status is correct no matter where the page is viewed.
+        var parts = new Intl.DateTimeFormat('en-US', {
+          timeZone: 'America/New_York',
+          weekday: 'short',
+          hour: 'numeric',
+          minute: 'numeric',
+          hour12: false
+        }).formatToParts(new Date());
+
+        var weekday, hour, minute;
+        parts.forEach(function (p) {
+          if (p.type === 'weekday') weekday = p.value;
+          if (p.type === 'hour') hour = parseInt(p.value, 10);
+          if (p.type === 'minute') minute = parseInt(p.value, 10);
+        });
+        if (hour === 24) hour = 0; // some engines report midnight as 24 with hour12:false
+
+        var day = dayIndex[weekday];
+        var hourDecimal = hour + minute / 60;
+        var closeHour = (day === 5 || day === 6 || day === 0) ? 23 : 22;
+        var isOpen = hourDecimal >= 7 && hourDecimal < closeHour;
+
+        dot.classList.remove('is-open', 'is-closed');
         dot.classList.add(isOpen ? 'is-open' : 'is-closed');
         text.textContent = isOpen
           ? 'Open now — closes ' + (closeHour === 23 ? '11:00 PM' : '10:00 PM')
           : 'Closed now — opens 7:00 AM';
       }
+
+      updateStatus();
+      setInterval(updateStatus, 60000); // keep it live if the tab is left open
     })();
   </script>
 
