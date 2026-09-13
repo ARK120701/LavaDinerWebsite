@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events | Lava Diner</title>
+<meta name="description" content="Weekly trivia, live music, and seasonal specials at Lava Diner in New Hyde Park, NY.">
+<meta name="theme-color" content="#15100c">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 3c3 6-2 8-2 13 0 3 2 5 2 5s2-2 2-5c4 3 7 8 7 13a9 9 0 1 1-18 0c0-6 3-8 5-14 1-3 2-9 4-12z" fill="#ff5a1f"/>
+        <path d="M20 14c1.5 3-1 4-1 6.5a1 1 0 0 0 2 0c0-2.5-2-3.5-1-6.5z" fill="#ffb020"/>
+      </svg>
+      <span class="brand-name">LAVA <span>DINER</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="events.html" aria-current="page">Events</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+15163542022">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.8 21 3 13.2 3 3.9c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.2 2.3z" fill="currentColor"/></svg>
+        <span class="phone-text">(516) 354-2022</span>
+      </a>
+      <div class="social-row">
+        <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Lava Diner on Instagram">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Lava Diner on Facebook">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M14 8.5h2.5V5.3h-2.5c-2.2 0-4 1.8-4 4v1.8H8v3.2h2v6.7h3.3v-6.7h2.5l.5-3.2h-3v-1.5c0-.6.5-1.1 1.7-1.1z" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav" onclick="var n=document.getElementById('main-nav'),open=n.classList.toggle('is-open');this.classList.toggle('is-open',open);this.setAttribute('aria-expanded',open)">
+      <svg class="icon-menu" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="menu-hero">
+    <div class="wrap">
+      <h1>Events</h1>
+      <p>Trivia, live music, and a few days a year we close the register and open the griddle to the whole block.</p>
+    </div>
+  </section>
+
+  <section class="menu-body">
+    <div class="wrap">
+
+      <div class="menu-category">
+        <div class="menu-category-head">
+          <h2>Every week</h2>
+        </div>
+        <div class="event-list">
+          <div class="event-item">
+            <div class="event-when">Tuesdays<br>7:00 PM</div>
+            <div class="event-info">
+              <h3>Trivia Night</h3>
+              <p>Six rounds, a microphone that's seen better days, and a $25 tab for the winning table. Sign up at the counter — teams of up to six.</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-when">Fridays<br>6:30 – 9:00 PM</div>
+            <div class="event-info">
+              <h3>Live on the Counter</h3>
+              <p>A rotating lineup of local acoustic acts plays over dinner. No cover, no reservations — just show up and grab a booth.</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-when">Sundays<br>All day</div>
+            <div class="event-info">
+              <h3>Kids Eat Free</h3>
+              <p>One free kids' meal with every adult entrée. Crayons included, no exceptions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <div class="menu-category-head">
+          <h2>Coming up</h2>
+        </div>
+        <div class="event-list">
+          <div class="event-item">
+            <div class="event-when">Nov 27<br>6:00 AM – 2:00 PM</div>
+            <div class="event-info">
+              <h3>Thanksgiving Morning Breakfast</h3>
+              <p>Full breakfast menu before the parade. We close for dinner that night so our crew can get home too.</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-when">Dec 1 – 24</div>
+            <div class="event-info">
+              <h3>Pie Weeks</h3>
+              <p>Extra flavors in the case every day through the holidays — pumpkin, pecan, and sour cherry, while they last.</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-when">June<br>date TBD</div>
+            <div class="event-info">
+              <h3>New Hyde Park Street Fair</h3>
+              <p>Find us curbside with the griddle cart for burgers and fresh-squeezed lemonade. Follow along for the exact date.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="menu-note-block">Schedule changes and last-minute specials get posted to <a class="note-link" href="https://instagram.com/" target="_blank" rel="noopener">@lavadiner</a> on Instagram before they hit the website.</p>
+
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Save your table</h2>
+      <p>Trivia and live music nights fill up fast — call ahead if you want a booth.</p>
+      <a href="tel:+15163542022" class="btn btn-primary">Call (516) 354-2022</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 3c3 6-2 8-2 13 0 3 2 5 2 5s2-2 2-5c4 3 7 8 7 13a9 9 0 1 1-18 0c0-6 3-8 5-14 1-3 2-9 4-12z" fill="#ff5a1f"/>
+            <path d="M20 14c1.5 3-1 4-1 6.5a1 1 0 0 0 2 0c0-2.5-2-3.5-1-6.5z" fill="#ffb020"/>
+          </svg>
+          <span class="brand-name">LAVA <span>DINER</span></span>
+        </a>
+        <p>Classic diner food, fired up right, on Hillside Ave in New Hyde Park.</p>
+        <div class="footer-social">
+          <div class="social-row">
+            <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Lava Diner on Instagram">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/></svg>
+            </a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Lava Diner on Facebook">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M14 8.5h2.5V5.3h-2.5c-2.2 0-4 1.8-4 4v1.8H8v3.2h2v6.7h3.3v-6.7h2.5l.5-3.2h-3v-1.5c0-.6.5-1.1 1.7-1.1z" fill="currentColor"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <a href="https://www.google.com/maps/search/?api=1&query=160+Hillside+Ave+New+Hyde+Park+NY+11040" target="_blank" rel="noopener">160 Hillside Ave<br>New Hyde Park, NY 11040</a>
+        <a href="tel:+15163542022">(516) 354-2022</a>
+      </div>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <div class="footer-hours-row"><span>Mon – Thu</span><span>7am – 10pm</span></div>
+        <div class="footer-hours-row"><span>Fri – Sun</span><span>7am – 11pm</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Lava Diner. All rights reserved.</span>
+      <span>New Hyde Park, NY</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

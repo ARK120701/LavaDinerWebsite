@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a paper basket of french fries">
+  <defs>
+    <radialGradient id="bg-fries" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#2b2015"/>
+      <stop offset="100%" stop-color="#1a130e"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-fries)"/>
+  <ellipse cx="200" cy="232" rx="110" ry="14" fill="#0a0705" opacity="0.55"/>
+
+  <g stroke-linecap="round">
+    <rect x="150" y="90" width="14" height="110" rx="4" fill="#ffb020" transform="rotate(-8 157 145)"/>
+    <rect x="172" y="80" width="14" height="120" rx="4" fill="#ffcf6b" transform="rotate(-3 179 140)"/>
+    <rect x="194" y="76" width="14" height="126" rx="4" fill="#ffb020"/>
+    <rect x="216" y="82" width="14" height="118" rx="4" fill="#ffcf6b" transform="rotate(4 223 141)"/>
+    <rect x="238" y="94" width="14" height="106" rx="4" fill="#ffb020" transform="rotate(9 245 147)"/>
+  </g>
+
+  <path d="M120 190h160l-14 46a10 10 0 0 1-10 8H144a10 10 0 0 1-10-8z" fill="#f5ead9"/>
+  <path d="M120 190h160l-4 14H124z" fill="#e8382b"/>
+  <path d="M132 204l6 40M200 204v40M268 204l-6 40" stroke="#d9cdb4" stroke-width="2" opacity="0.6"/>
+</svg>

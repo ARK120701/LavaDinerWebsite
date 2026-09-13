@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of the Lava Burger stacked with cheese and lettuce">
+  <defs>
+    <radialGradient id="bg-burger" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#2b2015"/>
+      <stop offset="100%" stop-color="#1a130e"/>
+    </radialGradient>
+    <radialGradient id="glow-burger" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#ff5a1f" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ff5a1f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-burger)"/>
+  <rect width="400" height="300" fill="url(#glow-burger)"/>
+  <ellipse cx="200" cy="234" rx="126" ry="14" fill="#0a0705" opacity="0.6"/>
+  <path d="M90 150c0-38 49-68 110-68s110 30 110 68H90z" fill="#c8791f"/>
+  <path d="M92 146c6-30 52-54 108-54s102 24 108 54" fill="none" stroke="#8a5215" stroke-width="4" opacity="0.5"/>
+  <path d="M104 122c14-32 54-56 96-56" fill="none" stroke="#e5a44a" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <g fill="#f5ead9" opacity="0.9">
+    <circle cx="150" cy="108" r="4"/>
+    <circle cx="180" cy="92" r="4"/>
+    <circle cx="215" cy="100" r="4"/>
+    <circle cx="248" cy="112" r="4"/>
+    <circle cx="200" cy="118" r="4"/>
+  </g>
+  <rect x="88" y="150" width="224" height="14" fill="#3ba14f"/>
+  <path d="M88 150q20 10 40 0t40 0 40 0 40 0 40 0 24 0" fill="none" stroke="#2c7d3b" stroke-width="4"/>
+  <rect x="92" y="164" width="216" height="20" rx="4" fill="#ffb020"/>
+  <rect x="86" y="184" width="228" height="26" rx="6" fill="#c8401b"/>
+  <rect x="90" y="210" width="220" height="18" fill="#3ba14f" opacity="0.85"/>
+  <path d="M90 210q18 12 36 0t36 0 36 0 36 0 36 0 20 0" fill="none" stroke="#2c7d3b" stroke-width="3"/>
+  <path d="M90 228c0-10 12-18 110-18s110 8 110 18-15 16-110 16-110-6-110-16z" fill="#efb46a"/>
+  <path d="M100 224c14 6 68 10 100 10" fill="none" stroke="#fbd9a5" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+</svg>

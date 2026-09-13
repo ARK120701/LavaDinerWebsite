@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a slice of diner pie a la mode">
+  <defs>
+    <radialGradient id="bg-pie" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#2b2015"/>
+      <stop offset="100%" stop-color="#1a130e"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-pie)"/>
+  <ellipse cx="200" cy="222" rx="120" ry="16" fill="#0a0705" opacity="0.55"/>
+  <path d="M120 210l70-130 70 130z" fill="#c8791f"/>
+  <path d="M132 208l58-108 58 108z" fill="#ff5a1f"/>
+  <path d="M120 210l70-130 70 130" fill="none" stroke="#7a3419" stroke-width="5"/>
+  <path d="M148 210l42-78 42 78" fill="none" stroke="#7a3419" stroke-width="3" opacity="0.6"/>
+  <path d="M158 190l32-58" stroke="#ffcf8a" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <circle cx="230" cy="168" r="26" fill="#f5ead9"/>
+  <circle cx="230" cy="168" r="26" fill="none" stroke="#e0d3bc" stroke-width="2"/>
+  <ellipse cx="221" cy="158" rx="8" ry="5" fill="#fffaf0" opacity="0.7"/>
+  <circle cx="212" cy="150" r="4" fill="#c8401b"/>
+</svg>

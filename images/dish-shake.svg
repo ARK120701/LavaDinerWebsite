@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a diner milkshake with whipped cream and a cherry">
+  <defs>
+    <radialGradient id="bg-shake" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#2b2015"/>
+      <stop offset="100%" stop-color="#1a130e"/>
+    </radialGradient>
+    <linearGradient id="glass-shake" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7a33"/>
+      <stop offset="55%" stop-color="#ffb020"/>
+      <stop offset="100%" stop-color="#e88a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-shake)"/>
+  <ellipse cx="200" cy="266" rx="70" ry="11" fill="#0a0705" opacity="0.55"/>
+  <path d="M150 90h100l-16 160a14 14 0 0 1-14 12h-40a14 14 0 0 1-14-12z" fill="url(#glass-shake)"/>
+  <path d="M150 90h100l-6 56h-88z" fill="#ff5a1f"/>
+  <path d="M160 100l-10 118" stroke="#fff4e0" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+  <rect x="146" y="80" width="108" height="16" rx="4" fill="#7a3419"/>
+  <ellipse cx="200" cy="94" rx="38" ry="14" fill="#f5ead9"/>
+  <path d="M170 84c6-16 54-16 60 0-10-6-50-6-60 0z" fill="#f5ead9"/>
+  <circle cx="200" cy="70" r="11" fill="#c8401b"/>
+  <circle cx="196" cy="66" r="3" fill="#ff8a5c" opacity="0.8"/>
+  <path d="M200 70c4-14 12-22 22-26" stroke="#3ba14f" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <rect x="228" y="60" width="8" height="90" rx="4" fill="#f5ead9" transform="rotate(14 232 105)"/>
+</svg>

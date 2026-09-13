@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" role="img" aria-label="Illustration of the Lava Diner counter with red vinyl stools and sunlit windows">
+  <rect width="500" height="400" fill="#fffdf7"/>
+  <rect x="0" y="0" width="500" height="230" fill="#dff3e8"/>
+  <rect x="0" y="210" width="500" height="20" fill="#c9ead9"/>
+  <g opacity="0.95">
+    <rect x="40" y="60" width="120" height="90" rx="4" fill="#2b2420"/>
+    <rect x="46" y="66" width="108" height="78" rx="2" fill="#fbe9a8"/>
+    <rect x="46" y="66" width="108" height="78" rx="2" fill="url(#glow)"/>
+    <rect x="340" y="60" width="120" height="90" rx="4" fill="#2b2420"/>
+    <rect x="346" y="66" width="108" height="78" rx="2" fill="#fbe9a8"/>
+    <rect x="346" y="66" width="108" height="78" rx="2" fill="url(#glow)"/>
+  </g>
+  <radialGradient id="glow" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="#fffaf0" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#f2b705" stop-opacity="0"/>
+  </radialGradient>
+  <rect x="0" y="230" width="500" height="18" fill="#e4483a"/>
+  <rect x="0" y="248" width="500" height="70" fill="#fffdf7"/>
+  <rect x="0" y="248" width="500" height="6" fill="#f2b705" opacity="0.7"/>
+  <g fill="#2b2420">
+    <circle cx="90" cy="360" r="26"/>
+    <rect x="84" y="318" width="12" height="46"/>
+    <circle cx="210" cy="360" r="26"/>
+    <rect x="204" y="318" width="12" height="46"/>
+    <circle cx="330" cy="360" r="26"/>
+    <rect x="324" y="318" width="12" height="46"/>
+    <circle cx="450" cy="360" r="26"/>
+    <rect x="444" y="318" width="12" height="46"/>
+  </g>
+  <g fill="#e4483a">
+    <circle cx="90" cy="342" r="22"/>
+    <circle cx="210" cy="342" r="22"/>
+    <circle cx="330" cy="342" r="22"/>
+    <circle cx="450" cy="342" r="22"/>
+  </g>
+  <g fill="#2b2420" opacity="0.12">
+    <rect x="0" y="318" width="500" height="8"/>
+  </g>
+</svg>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Lava Diner</title>
+<meta name="description" content="Full menu for Lava Diner in New Hyde Park, NY — breakfast, burgers, sandwiches, sides, sweets, and drinks.">
+<meta name="theme-color" content="#15100c">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 3c3 6-2 8-2 13 0 3 2 5 2 5s2-2 2-5c4 3 7 8 7 13a9 9 0 1 1-18 0c0-6 3-8 5-14 1-3 2-9 4-12z" fill="#ff5a1f"/>
+        <path d="M20 14c1.5 3-1 4-1 6.5a1 1 0 0 0 2 0c0-2.5-2-3.5-1-6.5z" fill="#ffb020"/>
+      </svg>
+      <span class="brand-name">LAVA <span>DINER</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="menu.html" aria-current="page">Menu</a>
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+15163542022">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.8 21 3 13.2 3 3.9c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.2 2.3z" fill="currentColor"/></svg>
+        <span class="phone-text">(516) 354-2022</span>
+      </a>
+      <div class="social-row">
+        <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Lava Diner on Instagram">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Lava Diner on Facebook">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M14 8.5h2.5V5.3h-2.5c-2.2 0-4 1.8-4 4v1.8H8v3.2h2v6.7h3.3v-6.7h2.5l.5-3.2h-3v-1.5c0-.6.5-1.1 1.7-1.1z" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav" onclick="var n=document.getElementById('main-nav'),open=n.classList.toggle('is-open');this.classList.toggle('is-open',open);this.setAttribute('aria-expanded',open)">
+      <svg class="icon-menu" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="menu-hero">
+    <div class="wrap">
+      <h1>The Menu</h1>
+      <p>Served all day, every day we're open. Ask your server about the day's specials on the board.</p>
+      <nav class="menu-jump" aria-label="Menu categories">
+        <a href="#breakfast">Breakfast</a>
+        <a href="#griddle">Griddle &amp; Sandwiches</a>
+        <a href="#burgers">Burgers</a>
+        <a href="#sides">Sides</a>
+        <a href="#sweets">Sweets &amp; Shakes</a>
+        <a href="#drinks">Drinks</a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="menu-body">
+    <div class="wrap">
+
+      <div class="menu-category" id="breakfast">
+        <div class="menu-category-image"><img src="images/Eggs.jpg" alt="Eggs frying on the griddle with bacon and toast"></div>
+        <div class="menu-category-head">
+          <h2>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 13c0-3.5 3-6 7-6s7 1.8 7 5-3 6.5-7.5 6.5S4 16.5 4 13z" stroke="currentColor" stroke-width="1.8"/><circle cx="13.5" cy="12" r="3" fill="currentColor"/></svg>
+            Breakfast
+          </h2>
+          <span class="menu-category-note">served all day</span>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Lava Skillet</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$12.95</span>
+            </div>
+            <p class="menu-item-desc">Three eggs, chorizo, peppers, onions, jack cheese, home fries.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Diner Pancake Stack</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$8.50</span>
+            </div>
+            <p class="menu-item-desc">Three buttermilk pancakes, whipped butter, warm syrup.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Two Eggs Any Style</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$7.25</span>
+            </div>
+            <p class="menu-item-desc">Toast, home fries, choice of bacon, sausage, or ham.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Belgian Waffle</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$8.95</span>
+            </div>
+            <p class="menu-item-desc">Fresh berries, whipped cream, side of syrup.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Western Omelette</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$10.50</span>
+            </div>
+            <p class="menu-item-desc">Ham, peppers, onions, cheddar. Served with toast.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">French Toast</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$8.25</span>
+            </div>
+            <p class="menu-item-desc">Thick-cut brioche, cinnamon, powdered sugar.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="griddle">
+        <div class="menu-category-image"><img class="img-zoom-md" src="images/dish-sandwich.svg" alt="Grilled diner sandwich cut in half"></div>
+        <div class="menu-category-head">
+          <h2>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 9l9-5 9 5-9 5-9-5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M3 9v6l9 5 9-5V9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 11.5l4 2.2 4-2.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            Griddle &amp; Sandwiches
+          </h2>
+          <span class="menu-category-note">with fries or side salad</span>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Grilled Reuben</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$10.50</span>
+            </div>
+            <p class="menu-item-desc">Corned beef, sauerkraut, swiss, Russian dressing, rye.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Patty Melt</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$10.95</span>
+            </div>
+            <p class="menu-item-desc">Griddled onions, swiss, grilled rye.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Club Sandwich</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$11.25</span>
+            </div>
+            <p class="menu-item-desc">Turkey, bacon, lettuce, tomato, triple-stacked toast.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Grilled Cheese</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$7.50</span>
+            </div>
+            <p class="menu-item-desc">American and cheddar on buttered white. Add tomato soup +$2.50.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">BLT</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$8.75</span>
+            </div>
+            <p class="menu-item-desc">Applewood bacon, lettuce, tomato, mayo, choice of bread.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Chicken Souvlaki Wrap</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$10.95</span>
+            </div>
+            <p class="menu-item-desc">Grilled chicken, tzatziki, tomato, red onion, feta.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="burgers">
+        <div class="menu-category-image"><img src="images/Burger.jpg" alt="Bacon cheeseburger with a side of fries"></div>
+        <div class="menu-category-head">
+          <h2>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 10c0-3.3 3.6-6 8-6s8 2.7 8 6H4z" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 13h17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M4 16.5h16a2.5 2.5 0 0 1-2.3 2.5H6.3A2.5 2.5 0 0 1 4 16.5z" stroke="currentColor" stroke-width="1.8"/></svg>
+            Burgers
+          </h2>
+          <span class="menu-category-note">certified beef, char-grilled</span>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Volcano Cheeseburger</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$11.95</span>
+            </div>
+            <p class="menu-item-desc">American cheese, spicy ember sauce, pickled jalapeño.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Classic Diner Burger</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$10.50</span>
+            </div>
+            <p class="menu-item-desc">Lettuce, tomato, onion, house sauce.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Bacon Cheddar Burger</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$12.50</span>
+            </div>
+            <p class="menu-item-desc">Applewood bacon, aged cheddar, crispy onions.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Mushroom Swiss Burger</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$12.25</span>
+            </div>
+            <p class="menu-item-desc">Sautéed mushrooms, garlic aioli, melted swiss.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Turkey Burger</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$10.95</span>
+            </div>
+            <p class="menu-item-desc">Ground turkey, avocado, lettuce, tomato.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Veggie Burger</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$10.50</span>
+            </div>
+            <p class="menu-item-desc">House-made black bean patty, chipotle mayo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="sides">
+        <div class="menu-category-image"><img src="images/Fries.jpg" alt="Basket of seasoned french fries"></div>
+        <div class="menu-category-head">
+          <h2>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 21l-1-12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M11 21l-.5-14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M13 21l.5-14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M17 21l1-12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M5.5 11h13l-1 2h-11z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            Sides
+          </h2>
+          <span class="menu-category-note">&nbsp;</span>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Home Fries</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$3.95</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">French Fries</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$3.95</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Onion Rings</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$5.50</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Side of Bacon (3)</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$4.25</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Two Pancakes</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$5.25</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Cup of Soup</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$4.50</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="sweets">
+        <div class="menu-category-image menu-category-image--shake" role="img" aria-label="Chocolate milkshake topped with whipped cream and a cherry"></div>
+        <div class="menu-category-head">
+          <h2>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 8h9l-1.4 11.2a2 2 0 0 1-2 1.8h-2.2a2 2 0 0 1-2-1.8L7.5 8z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><ellipse cx="12" cy="8" rx="4.5" ry="1.8" stroke="currentColor" stroke-width="1.8"/><path d="M17 4.5l-4 5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            Sweets &amp; Shakes
+          </h2>
+          <span class="menu-category-note">baked in-house daily</span>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Hand-Spun Milkshake</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$6.75</span>
+            </div>
+            <p class="menu-item-desc">Vanilla, chocolate, or strawberry.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Slice of Pie</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$5.95</span>
+            </div>
+            <p class="menu-item-desc">Ask about today's flavor.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Pie à la Mode</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$7.50</span>
+            </div>
+            <p class="menu-item-desc">Any slice, topped with vanilla ice cream.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Rice Pudding</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$4.95</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="drinks">
+        <div class="menu-category-image"><img class="img-zoom-md" src="images/dish-coffee.svg" alt="Diner coffee mug with steam rising"></div>
+        <div class="menu-category-head">
+          <h2>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 6h11v8a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M16 8h1.5a2.5 2.5 0 0 1 0 5H16" stroke="currentColor" stroke-width="1.8"/><path d="M8 3.5c0 .8-1 .8-1 1.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M11 3.5c0 .8-1 .8-1 1.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            Drinks
+          </h2>
+          <span class="menu-category-note">&nbsp;</span>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Bottomless Coffee</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$3.25</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Hot Tea</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$3.00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Fresh Orange Juice</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$4.50</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Fountain Soda</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$2.75</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Iced Tea</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$2.75</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Hot Chocolate</span>
+              <span class="menu-item-leader"></span>
+              <span class="menu-item-price">$3.50</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="menu-note-block">Prices and availability may vary. Please let your server know about any allergies — we're happy to work with you. Menu subject to change based on seasonal availability.</p>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 3c3 6-2 8-2 13 0 3 2 5 2 5s2-2 2-5c4 3 7 8 7 13a9 9 0 1 1-18 0c0-6 3-8 5-14 1-3 2-9 4-12z" fill="#ff5a1f"/>
+            <path d="M20 14c1.5 3-1 4-1 6.5a1 1 0 0 0 2 0c0-2.5-2-3.5-1-6.5z" fill="#ffb020"/>
+          </svg>
+          <span class="brand-name">LAVA <span>DINER</span></span>
+        </a>
+        <p>Classic diner food, fired up right, on Hillside Ave in New Hyde Park.</p>
+        <div class="footer-social">
+          <div class="social-row">
+            <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Lava Diner on Instagram">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/></svg>
+            </a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Lava Diner on Facebook">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M14 8.5h2.5V5.3h-2.5c-2.2 0-4 1.8-4 4v1.8H8v3.2h2v6.7h3.3v-6.7h2.5l.5-3.2h-3v-1.5c0-.6.5-1.1 1.7-1.1z" fill="currentColor"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <a href="https://www.google.com/maps/search/?api=1&query=160+Hillside+Ave+New+Hyde+Park+NY+11040" target="_blank" rel="noopener">160 Hillside Ave<br>New Hyde Park, NY 11040</a>
+        <a href="tel:+15163542022">(516) 354-2022</a>
+      </div>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <div class="footer-hours-row"><span>Mon – Thu</span><span>7am – 10pm</span></div>
+        <div class="footer-hours-row"><span>Fri – Sun</span><span>7am – 11pm</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Lava Diner. All rights reserved.</span>
+      <span>New Hyde Park, NY</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
