@@ -329,6 +329,7 @@ button:focus-visible {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 0;
   padding: 18px 0;
 }
@@ -486,17 +487,9 @@ button:focus-visible {
   object-fit: cover;
 }
 
-/* Crops in on studio product shots (white backdrop) so they don't
-   leave a bright, out-of-place margin against the dark tile. */
-.img-zoom { transform: scale(3.2); }
-.img-zoom-sm { transform: scale(1.35); }
+/* Crops in on illustrations that have generous built-in padding, so
+   they don't float small in the middle of an otherwise-empty frame. */
 .img-zoom-md { transform: scale(1.6); }
-.menu-category-image--shake {
-  background-image: url('images/Milkshake.jpg');
-  background-size: 460% auto;
-  background-position: 50% 22%;
-  background-repeat: no-repeat;
-}
 
 .gallery-cap {
   padding: 14px 16px;
@@ -889,7 +882,7 @@ button:focus-visible {
   .teaser-grid { grid-template-columns: 1fr; }
   .teaser-col { border-left: none; border-top: 1px solid var(--rust-dim); }
   .teaser-col:first-child { border-top: none; }
-  .info-bar { flex-direction: column; align-items: flex-start; gap: 4px; padding: 20px 0; }
+  .info-bar { flex-direction: column; align-items: center; gap: 4px; padding: 20px 0; }
   .info-seg, .info-status { border-left: none; padding-left: 0; }
   .footer-grid { grid-template-columns: 1fr; gap: 30px; }
   .menu-items { grid-template-columns: 1fr; }
